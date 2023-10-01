@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Project Yggdrasil roleplay and book website."
+    />
+    <meta name="author" content="David Rodgers" />
+    <meta
+      name="keywords"
+      content="Discord, Roleplay, Yggdrasil, Reading, Book Series"
+    />
+    <link rel="stylesheet" href="/CSS/style.css" />
+    <link rel="icon" type="image/ico" href="/Media/Images/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+    />
+    <title>Yggdrasil Home</title>
+  </head>
+  <body>
+    <!-- Header and Navigation-->
+    <header>
+      <nav id="TOP">
+        <a href="index.html"
+          ><img
+            src="/Media/Images/yggdrasil.jpg"
+            alt="Yggdrasil Logo"
+            id="Logo"
+        /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">Yggdrasil Home</a></li>
+            <li><a href="about.html">About Yggdrasil</a></li>
+            <li><a href="laws.html">Yggdrasil's Laws</a></li>
+            <li><a href="skills.html">Yggdrasil's Skills</a></li>
+            <li><a href="magic.html">Yggdrasil's Magic</a></li>
+            <li><a href="portfolio.html">Character Portfolio & Template</a></li>
+            <li><a href="contactUs.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+    </header>
+    <br />
+    <hr />
+    <!-- Main Content-->
+    <main>
+      <h1>Welcome to Yggdrasil</h1>
+      <br />
+      <p>
+        Yggdrasil is the setting for a planned series of books as well as a
+        Discord Roleplay Server by David Rodgers and Drako Vishious.<br />
+        The Roleplay Discord Server, Yggdrasil, is an eat and grow roleplay
+        where you start with a weak character and grows more powerful as the
+        roleplay goes on.
+      </p>
+      <br /><br />
+      <hr />
+      <img
+        src="/Media/Images/Castle_Strahd.png"
+        alt="Yggdrasil Logo"
+        id="bodyLogo"
+      />
+      <br />
+      <h2>Notice:</h2>
+      <p>
+        You are notified by the Words of the World,<br />
+        "You have been invited to the wolrd of Yggdrasil."
+      </p>
+      <br /><br />
+      <hr />
+      <br />
+      <p id="artwork">
+        All artwork on this website, not owned by Drako Vishious, are
+        placeholders. If you find your artwork on this site, please contact us.
+        If it is on a google sheet for a character, we will ask the owner of the
+        character to change it, however if it is on the website we will work to
+        change it immediately.
+      </p>
+    </main>
+    <br /><br />
+    <hr />
+    <!-- Footer and Copyright-->
+    <footer>
+      &copy; 2023 Project Vishious.<br />
+      Project Yggdrasil is the brainschild of David Rodgers and Drako Vishious.
+      <br />
+    </footer>
+    <!-- Javascript For Toggle Menu -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Project Yggdrasil roleplay and book website."
+    />
+    <meta name="author" content="David Rodgers" />
+    <meta
+      name="keywords"
+      content="Discord, Roleplay, Yggdrasil, Reading, Book Series"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+    />
+    <link rel="stylesheet" href="/CSS/style.css" />
+    <link rel="icon" type="image/ico" href="/Media/Images/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+    />
+    <link rel="Script" href="/JS/menu.js" />
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <!-- Header and Navigation-->
+    <header>
+      <nav id="TOP">
+        <a href="index.html"
+          ><img
+            src="/Media/Images/Yggdrasil.jpg"
+            alt="Yggdrasil Logo"
+            id="Logo"
+        /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">Yggdrasil Home</a></li>
+            <li><a href="about.html">About Yggdrasil</a></li>
+            <li><a href="laws.html">Yggdrasil's Laws</a></li>
+            <li><a href="skills.html">Yggdrasil's Skills</a></li>
+            <li><a href="magic.html">Yggdrasil's Magic</a></li>
+            <li><a href="portfolio.html">Character Portfolio & Template</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+    </header>
+    <br />
+    <hr />
+    <!-- Main Content-->
+    <main>
+      <div class="container">
+        <form onsubmit="sendEmail(); reset(); return false">
+          <h3>Contact Us</h3>
+          <input type="text" id="name" placeholder="Your Name" required /><br />
+          <input
+            type="email"
+            id="email"
+            placeholder="Your Email ID"
+            required
+          /><br />
+          <textarea id="message" cols="10" rows="4">
+How can we help you?
+            </textarea
+          ><br />
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </main>
+    <br /><br />
+    <hr />
+    <!-- Footer and Copyright-->
+    <footer>
+      &copy; 2023 Project Vishious.<br />
+      Project Yggdrasil is the brainschild of David Rodgers and Drako
+      Vishious.<br />
+      <a href="#TOP">To the Top.</a>
+    </footer>
+    <!-- Javascript For Toggle Menu  -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+      function sendEmail() {
+        Email.send({
+          Host: "smtp.elasticemail.com",
+          Username: "username",
+          Password: "password",
+          To: "drkmewyt@gmail.com",
+          From: document.getElementById("email").value,
+          Subject: "New Contact Form Enquiry",
+          Body:
+            "Name:" +
+            document.getElementById(name).value +
+            "Email:" +
+            document.getElementById("email").value +
+            "<br> Message:" +
+            document.getElementById("message").value,
+        }).then((message) => alert("Message Sent Succesfully."));
+      }
+    </script>
+  </body>
+</html>
