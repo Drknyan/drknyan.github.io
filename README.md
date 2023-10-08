@@ -16,3 +16,8 @@ Template updated for when we need to make additional pages for the site.
 
 CSS Updated
 Contact Us Page is now fixed and should be live.
+
+# 1.0.3
+
+Contact Us Updated and should now work due to Javascript file email.js created for Contact Us page and put in use using EmailJS.com .
+Footer updated to be uniform accross the website.

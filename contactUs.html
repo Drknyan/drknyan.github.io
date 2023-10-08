@@ -29,6 +29,17 @@
       href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
     />
     <link rel="Script" href="/JS/menu.js" />
+    <!-- Javascript for EmailJS -->
+    <script src="/JS/email.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("XLp5ILz-ueoVjiBlO");
+      })();
+    </script>
     <title>Contact Us</title>
   </head>
   <body>
@@ -50,6 +61,7 @@
             <li><a href="skills.html">Yggdrasil's Skills</a></li>
             <li><a href="magic.html">Yggdrasil's Magic</a></li>
             <li><a href="portfolio.html">Character Portfolio & Template</a></li>
+            <li><a href="contactUs.html">Contact Us</a></li>
           </ul>
         </div>
         <i class="fa fa-bars" onclick="showMenu()"></i>
@@ -60,7 +72,7 @@
     <!-- Main Content-->
     <main>
       <div class="container">
-        <form onsubmit="sendEmail(); reset(); return false">
+        <form>
           <h3>Contact Us</h3>
           <input type="text" id="name" placeholder="Your Name" required /><br />
           <input
@@ -73,7 +85,7 @@
 How can we help you?
             </textarea
           ><br />
-          <button type="submit">Send</button>
+          <button type="submit" onclick="sendMail()">Send</button>
         </form>
       </div>
     </main>
@@ -82,8 +94,13 @@ How can we help you?
     <!-- Footer and Copyright-->
     <footer>
       &copy; 2023 Project Vishious.<br />
-      Project Yggdrasil is the brainschild of David Rodgers and Drako
-      Vishious.<br />
+      <p>
+        Yggdrasil is the setting for a planned series of books as well as a
+        Discord Roleplay Server by David Rodgers and Drako Vishious.<br />
+        The Roleplay Discord Server, Yggdrasil, is an eat and grow roleplay
+        where you start with a weak character and grows more powerful as the
+        roleplay goes on.
+      </p>
       <a href="#TOP">To the Top.</a>
     </footer>
     <!-- Javascript For Toggle Menu  -->
@@ -95,24 +112,6 @@ How can we help you?
       }
       function hideMenu() {
         navLinks.style.right = "-200px";
-      }
-    </script>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script>
-      function sendEmail() {
-        Email.send({
-          secureToken: "7254d47a-d13e-4041-86b8-288d7468d1dd",
-          To: "drkmewyt@gmail.com",
-          From: document.getElementById("email").value,
-          Subject: "New Contact Form Enquiry",
-          Body:
-            "Name:" +
-            document.getElementById("name").value +
-            "<br> Email:" +
-            document.getElementById("email").value +
-            "<br> Message:" +
-            document.getElementById("message").value,
-        }).then((message) => alert("Message Sent Succesfully."));
       }
     </script>
   </body>
