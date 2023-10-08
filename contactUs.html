@@ -66,7 +66,7 @@
           <input
             type="email"
             id="email"
-            placeholder="Your Email ID"
+            placeholder="Your Email"
             required
           /><br />
           <textarea id="message" cols="10" rows="4">
@@ -107,8 +107,8 @@ How can we help you?
           Subject: "New Contact Form Enquiry",
           Body:
             "Name:" +
-            document.getElementById(name).value +
-            "Email:" +
+            document.getElementById("name").value +
+            "<br> Email:" +
             document.getElementById("email").value +
             "<br> Message:" +
             document.getElementById("message").value,
