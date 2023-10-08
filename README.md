@@ -21,3 +21,7 @@ Contact Us Page is now fixed and should be live.
 
 Contact Us Updated and should now work due to Javascript file email.js created for Contact Us page and put in use using EmailJS.com .
 Footer updated to be uniform accross the website.
+
+# 1.0.4
+
+Updated Contact Us Form CSS and HTML to fix the contact us form.

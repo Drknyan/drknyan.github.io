@@ -101,6 +101,7 @@ form{
     width: 80%;
     max-width: 600px;
     border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 form h3{
     color: #555;
