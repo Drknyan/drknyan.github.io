@@ -57,3 +57,7 @@ Updated About us Footer and Contact us' form placeholder for the message.
 # Update 1.1.1A
 
 Corrected Spelling inside email.js from teplateID to templateID.
+
+# Update 1.1.1B
+
+Added serviceID definition and templateID definition to contactUs.html
