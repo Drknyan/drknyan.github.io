@@ -73,3 +73,7 @@ Moved the serviceID and templateID variables within contactUs.html so they are o
 # Update 1.1.4
 
 Fixed typos in pages, fixed css to adjust max content width to 80%, added more detail to magic.html information and titles that can be unlocked.
+
+# Update 1.1.4-A
+
+Fiddling with the style.css sheet to try and fix the sites width.
