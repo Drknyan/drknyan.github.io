@@ -4,10 +4,13 @@ function sendMail(){
         email_id: document.getElementById("email").value ,
         message: document.getElementById("message").value ,
     }
+    var serviceID = "service_ngalm3p";
+    var teplateID = "template_jbq0usj";
 
-    emailjs.send("service_ngalm3p", "template_jbq0usj", params)
+    emailjs.send(serviceID, templateID, params)
     .then(function (res) {
         alert("Message Sent Successfully!" + res.status);
     })
+    .catch();
 }
 
