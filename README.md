@@ -89,3 +89,7 @@ Fixed margins from all margins to margin-left and margin-right respectively in a
 # Update 1.1.4-D
 
 Fixed index.html footer to include a to the top button.
+
+# Update 1.1.4-E
+
+Edited Left and right margins to 10% instead of 20%
