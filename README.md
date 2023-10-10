@@ -65,3 +65,7 @@ Added serviceID definition and templateID definition to contactUs.html
 # Update 1.1.2
 
 Corrected the footer on the laws.html page.
+
+# Update 1.1.3
+
+Moved the serviceID and templateID variables within contactUs.html so they are outside the function and defined properly.
