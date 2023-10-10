@@ -81,3 +81,7 @@ Fiddling with the style.css sheet to try and fix the sites width.
 # Update 1.1.4-B
 
 Switched max-width to margin in attempt to fix the websites margins and width.
+
+# Update 1.1.4-C
+
+Fixed margins from all margins to margin-left and margin-right respectively in attempt to fix the width without editing the height.
