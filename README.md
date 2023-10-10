@@ -33,3 +33,7 @@ Updated Contact Us Form's message area to show text. Fixed various typos on the 
 # 1.0.6
 
 Updated Index to remove contact us link on bottom of page as it was seperating components of the paragraph.
+
+# 1.0.7
+
+Updated email.js to the new default template of EmailJS.
