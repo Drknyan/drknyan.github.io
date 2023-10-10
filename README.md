@@ -53,3 +53,7 @@ Updated Links in Contact Us page to hopefully load email.js code properly
 # Update 1.1.1
 
 Updated About us Footer and Contact us' form placeholder for the message.
+
+# Update 1.1.1A
+
+Corrected Spelling inside email.js from teplateID to templateID.
