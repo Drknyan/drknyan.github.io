@@ -69,3 +69,7 @@ Corrected the footer on the laws.html page.
 # Update 1.1.3
 
 Moved the serviceID and templateID variables within contactUs.html so they are outside the function and defined properly.
+
+# Update 1.1.4
+
+Fixed typos in pages, fixed css to adjust max content width to 80%, added more detail to magic.html information and titles that can be unlocked.

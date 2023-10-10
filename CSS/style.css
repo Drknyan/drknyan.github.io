@@ -60,6 +60,7 @@ nav{
 
 /*---- Body ----*/
 body {
+    max-width: 80%;
     background-color: black;
     color: whitesmoke;
     text-align: center;
