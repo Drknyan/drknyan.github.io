@@ -77,3 +77,7 @@ Fixed typos in pages, fixed css to adjust max content width to 80%, added more d
 # Update 1.1.4-A
 
 Fiddling with the style.css sheet to try and fix the sites width.
+
+# Update 1.1.4-B
+
+Switched max-width to margin in attempt to fix the websites margins and width.
