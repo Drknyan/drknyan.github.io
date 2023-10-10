@@ -29,3 +29,7 @@ Updated Contact Us Form CSS and HTML to fix the contact us form.
 # 1.0.5
 
 Updated Contact Us Form's message area to show text. Fixed various typos on the about page. Fixed the paragraph html on index for the contact us link on the bottom of the page.
+
+# 1.0.6
+
+Updated Index to remove contact us link on bottom of page as it was seperating components of the paragraph.
