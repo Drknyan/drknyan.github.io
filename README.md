@@ -61,3 +61,7 @@ Corrected Spelling inside email.js from teplateID to templateID.
 # Update 1.1.1B
 
 Added serviceID definition and templateID definition to contactUs.html
+
+# Update 1.1.2
+
+Corrected the footer on the laws.html page.
