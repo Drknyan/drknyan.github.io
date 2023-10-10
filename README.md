@@ -85,3 +85,7 @@ Switched max-width to margin in attempt to fix the websites margins and width.
 # Update 1.1.4-C
 
 Fixed margins from all margins to margin-left and margin-right respectively in attempt to fix the width without editing the height.
+
+# Update 1.1.4-D
+
+Fixed index.html footer to include a to the top button.
