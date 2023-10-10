@@ -49,3 +49,7 @@ Updated email.js to hopefully work now.
 # Update 1.1.0
 
 Updated Links in Contact Us page to hopefully load email.js code properly
+
+# Update 1.1.1
+
+Updated About us Footer and Contact us' form placeholder for the message.
