@@ -45,3 +45,7 @@ Updated email.js to fix the javascript to match the default template of EmailJS
 # Update 1.0.9
 
 Updated email.js to hopefully work now.
+
+# Update 1.1.0
+
+Updated Links in Contact Us page to hopefully load email.js code properly
