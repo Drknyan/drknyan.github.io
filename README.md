@@ -93,3 +93,7 @@ Fixed index.html footer to include a to the top button.
 # Update 1.1.4-E
 
 Edited Left and right margins to 10% instead of 20%
+
+# Update 1.1.5
+
+Added to the top button on skills.html page. Modified the mobile view's margins to 0.
