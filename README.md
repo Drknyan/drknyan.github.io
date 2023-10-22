@@ -97,3 +97,7 @@ Edited Left and right margins to 10% instead of 20%
 # Update 1.1.5
 
 Added to the top button on skills.html page. Modified the mobile view's margins to 0.
+
+# Update 1.1.6
+
+Edited about.html 's code to hopefully fix mobile menu.
