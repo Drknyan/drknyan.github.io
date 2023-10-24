@@ -105,3 +105,7 @@ Edited about.html 's code to hopefully fix mobile menu.
 # Update 1.1.7
 
 Edited js moving code from email.js to concactUs.html code in attempt to fix contact form.
+
+# Update 1.1.7-A
+
+Updated email.js to be empty so contactUs.html code should work.
